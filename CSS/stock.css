@@ -1,0 +1,420 @@
+body {
+    background-color: white;
+
+}
+
+.chy {
+    width: 5%;
+    margin-left: 15px;
+}
+
+#ify {
+    background-color: white;
+}
+
+.oge {
+    padding-right: 400px;
+}
+
+.vic {
+    padding: 10px;
+}
+.vic:hover {
+     background-color: goldenrod;
+}
+
+.head {
+    background-color: black;
+}
+
+#hero {
+    width: 100%;
+    padding: 50px 0;
+    background-color: black;
+}
+
+#hero .container {
+    padding-top: 50px;
+}
+
+.animated {
+    width: 500px;
+    float: right;
+
+    /* animation: up-down 2s ease-in-out infinite alternate-reverse both; */
+    animation: bounce 0.9s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 200px, 0);
+    }
+}
+
+
+
+#hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 56px;
+
+}
+
+#hero h2 {
+    color: rgb(82, 20, 82);
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+.bow {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+  padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    background-color: goldenrod;
+    bottom: 60px;
+    text-align: center;
+    transition: 0.5s;
+ color: black;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.car {
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #ffffff;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+   padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    background-color: rgb(121, 226, 121);
+    bottom: 60px;
+    text-align: center;
+   transition: 0.5s;
+  color: black;
+}
+/* css for lorem */
+.kon2 {
+    color: black;
+    margin: 50px;
+    padding: 30px;
+    margin-top: 300px;
+}
+.kon {
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.pol {
+    text-align: center;
+}
+
+.win {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.win:hover {
+    background-color:goldenrod;
+   
+}
+
+/* hover for wallet and trading */
+.bow:hover {
+    background-color: white;
+    padding: 10px 70px;
+}
+
+.car:hover {
+    background-color: white;
+    padding: 10px 70px;
+}
+/* CSS FOR HTML2 FORM */
+form {
+    width: 80%;
+    margin: 30px;
+    padding: 5px;
+    
+}
+.kay1 {
+    color: white; 
+    margin: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.kay2 {
+    color: white; 
+    margin: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.kay3 {
+    color: white; 
+    margin: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.kay4 {
+    color: white; 
+    margin: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.kay5 {
+    color: white; 
+    margin: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.kay6 {
+    color: white; 
+    margin: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.kay7 {
+    color: white; 
+    margin: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.kay8 {
+    color: white; 
+    margin: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+/* .oge { */
+    /* border-radius: 50px; */
+/* } */
+.nem {
+    /* width: 80%; */
+    display: flex;
+    justify-content: center;
+    /* height: 80%; */
+    /* margin-left: 50px; */
+    margin-right: 40px;
+    /* margin-top: 30px; */
+    /* margin-bottom: 30px; */
+    background-color: black;
+    margin: 50px;
+    color: white;
+    border-radius: 30px;
+    
+    /* font-size: 20px; */
+}
+
+.myBtn {
+    margin: 20px;
+    margin-left: 10px;
+    padding: 5px 80px;
+    background-color: goldenrod;
+}
+
+.myBtn:hover {
+    color: black;
+    background-color: #014f75;
+    padding: 10px 70px;
+}
+.jul {
+    text-align: center;
+    color: black;
+}
+.jul2 {
+    color: black;
+    text-align: center;
+}
+.me {
+    color: goldenrod;
+}
+/* css for market update img */
+.lov {
+    margin: 50px;
+/* padding: 10px; */
+}
+/* css for why choose us */
+.row {
+    color: black;
+    text-align: center;
+}
+/* CSS OF THE IMAGES OF WHY CHOOSE US */
+.ugo {
+    padding: 10px;
+    border-radius: 50px;
+}
+.ugo:hover {
+    padding: 10px 20px;
+    background-color: goldenrod;
+}
+.joe {
+    /* margin: 10px; */
+    border-radius:50px ;
+    padding: 10px;
+}
+/* CSS FOR START TRADING */
+.obi {
+    text-align: center;
+}
+.nke {
+    margin-bottom: 5px;
+    width: 100%;
+    border: 1px solid #ffffff;
+    font-family: sans-serif;
+    /* font-weight: 500; */
+    /* font-size: 16px; */
+    letter-spacing: 1px;
+   padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    background-color: goldenrod;
+    /* bottom: 60px; */
+    text-align: center;
+   transition: 0.5s;
+}
+.nke2 {
+    margin-bottom: 5px;
+    width: 100%;
+    border: 1px solid #ffffff;
+    font-family: sans-serif;
+    /* font-weight: 500; */
+    /* font-size: 16px; */
+    letter-spacing: 1px;
+   padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    background-color:  rgb(121, 226, 121);
+    /* bottom: 60px; */
+    text-align: center;
+   transition: 0.5s;
+}
+
+.nke:hover {
+    background-color:  black;
+}
+.nke2:hover {
+    background-color: black;
+}
+
+#cop {
+    text-align: center;
+    margin: 50px;
+    padding: 15px;
+
+}
+
+.card-img-top {
+    background-color: greenyellow;
+}
+
+/* css for facebook */
+.ble {
+    color: white;
+    background-color: #3b5998;
+    padding: 7px;
+    border-radius: 50px;
+}
+
+/* csss for watsapp */
+.sip {
+    color: white;
+    background-color: rgb(21, 228, 21);
+    padding: 7px;
+    border-radius: 50px;
+}
+/* css for twitter */
+.min {
+    color: white;
+    background-color: skyblue;
+    padding: 7px;
+    border-radius: 50px;
+}
+/* CSS FOR INSTAGRAM */
+.ins {
+    color: white;
+    background-color: purple;
+    padding: 7px; 
+    border-radius: 50px;
+}
+/* CSS FOR CHOOSING US AND START TRADING */
+.man {
+    background-color: rgb(216, 209, 197);
+}
+.naz {
+    cursor: pointer;
+    color: goldenrod;
+}
+
+/* CSS FOR HTML4(DASHBOARD) */
+.mom {
+    background-color: #3b5998;
+    border-radius: 7px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+.mom2 {
+    margin: 50px;
+    color: #ffffff;
+    }
+
+
+    .brain {
+       background-color: gold;
+       border-radius: 7px;
+       padding: 10px 12px;
+       font-size:16px ;
+       border: 1px solid white;
+       margin-bottom: 5px;
+       color: black;
+       letter-spacing: 1px;
+    }
+    .brain2 {
+        background-color: white;
+        border-radius: 7px;
+        padding: 10px 12px;
+        font-size:16px ;
+        border: 1px solid white;
+        margin-bottom: 5px;
+        color: black;
+        letter-spacing: 1px;
+     }
+     .brain3 {
+        background-color: goldenrod;
+        border-radius: 7px;
+        padding: 10px 12px;
+        font-size:16px ;
+        border: 1px solid white;
+        margin-bottom: 5px;
+        color: black;
+        letter-spacing: 1px;
+     }
+
+    
+
+   
